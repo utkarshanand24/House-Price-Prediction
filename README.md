@@ -1,8 +1,24 @@
 # House Price Prediction
 
-A Machine Learning project that predicts house prices using Python and Random Forest Regression.
+A Machine Learning web application that predicts house prices using Random Forest Regression, with an interactive Streamlit interface and Power BI dashboard.
 
-## Technologies Used
+## 🚀 Live Demo
+
+[Try House Price AI](https://house-price-prediction-b4kmj6hwlzgzyqjjaqwkve.streamlit.app/)
+
+## ✨ Features
+
+- House price prediction using Machine Learning
+- Random Forest Regression
+- Interactive Streamlit web application
+- User-friendly house property inputs
+- Prediction history
+- Feature importance visualization
+- Model performance metrics
+- Actual vs Predicted price visualization
+- Power BI dashboard
+
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -10,14 +26,24 @@ A Machine Learning project that predicts house prices using Python and Random Fo
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- Streamlit
 - Power BI
 
-## Machine Learning Models
+## 🤖 Machine Learning Models
 
 - Linear Regression
 - Random Forest Regressor
 
-## Selected Features
+## 📊 Model Performance
+
+| Model | MAE | RMSE | R² Score |
+|---|---:|---:|---:|
+| Linear Regression | 24,932.67 | 39,558.88 | 0.796 |
+| Random Forest | 19,285.42 | 29,992.91 | 0.883 |
+
+## 🔍 Selected Features
+
+The Random Forest model uses the following house features:
 
 - OverallQual
 - GrLivArea
@@ -28,16 +54,22 @@ A Machine Learning project that predicts house prices using Python and Random Fo
 - FullBath
 - YearBuilt
 
-## Model Performance
+## 📈 Feature Importance
 
-| Model | MAE | RMSE | R² Score |
-|---|---:|---:|---:|
-| Linear Regression | 24,932.67 | 39,558.88 | 0.796 |
-| Random Forest | 19,285.42 | 29,992.91 | 0.883 |
+The most important features identified by the Random Forest model include:
 
-## Power BI Dashboard
+- OverallQual
+- GrLivArea
+- TotalBsmtSF
+- 1stFlrSF
+- YearBuilt
+- GarageArea
+- GarageCars
+- FullBath
 
-The dashboard includes:
+## 📊 Power BI Dashboard
+
+The Power BI dashboard includes:
 
 - Total Houses
 - Average Sale Price
@@ -47,7 +79,7 @@ The dashboard includes:
 - Actual vs Predicted House Prices
 - Feature Importance
 
-## Streamlit Web Application
+## 🌐 Streamlit Web Application
 
 This project also includes an interactive web application built using Streamlit.
 
@@ -67,16 +99,3 @@ Install the required libraries:
 
 ```bash
 pip install streamlit pandas scikit-learn
-## Project Structure
-
-```text
-House-Price-Prediction/
-├── house_price.py
-├── house_price_powerbi.csv
-├── model_predictions.csv
-├── model_metrics.csv
-├── feature_importance.csv
-└── README.md
-## Live Demo
-
-🚀 [Try House Price AI](https://house-price-prediction-b4kmj6hwlzgzyqjjaqwkve.streamlit.app/)
