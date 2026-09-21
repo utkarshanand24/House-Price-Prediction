@@ -77,3 +77,6 @@ House-Price-Prediction/
 ├── model_metrics.csv
 ├── feature_importance.csv
 └── README.md
+## Live Demo
+
+🚀 [Try House Price AI](https://house-price-prediction-b4kmj6hwlzgzyqjjaqwkve.streamlit.app/)
