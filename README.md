@@ -47,6 +47,26 @@ The dashboard includes:
 - Actual vs Predicted House Prices
 - Feature Importance
 
+## Streamlit Web Application
+
+This project also includes an interactive web application built using Streamlit.
+
+### Features
+
+- House price prediction
+- Random Forest Regression
+- User-friendly house property inputs
+- Prediction history
+- Feature importance visualization
+- Model performance metrics
+- Actual vs Predicted price visualization
+
+### Run the Application
+
+Install the required libraries:
+
+```bash
+pip install streamlit pandas scikit-learn
 ## Project Structure
 
 ```text
