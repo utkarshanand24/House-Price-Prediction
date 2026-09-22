@@ -73,6 +73,10 @@ The most important features identified by the Random Forest model include:
 
 ![Streamlit App](screenshots/streamlit_app.png)
 
+### 📊 Power BI Dashboard
+
+![Power BI Dashboard](screenshots/powerbi_dashboard.png)
+
 ## 📊 Power BI Dashboard
 
 The Power BI dashboard includes:
@@ -84,10 +88,6 @@ The Power BI dashboard includes:
 - Model Performance
 - Actual vs Predicted House Prices
 - Feature Importance
-
-### Dashboard Preview
-
-![Power BI Dashboard](screenshots/powerbi_dashboard.png)
 
 ## 🌐 Streamlit Web Application
 
